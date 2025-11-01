@@ -61,9 +61,14 @@ npm run start
 ```
 
 ## Docker
-
+To build a Docker image for Drawnix, use the following command:
 ```
 docker build -f ./Dockerfile -t drawnix .
+```
+
+Or build up with docker-compose:
+```
+docker-compose up -d
 ```
 
 ## Dependencies
