@@ -1,0 +1,1567 @@
+{
+  "children": [
+    {
+      "id": "mAFdX",
+      "type": "mindmap",
+      "data": {
+        "topic": {
+          "children": [
+            {
+              "text": "Probing Iron in Earth’s Core With Molecular-Spin Dynamics"
+            }
+          ],
+          "type": "paragraph"
+        }
+      },
+      "children": [
+        {
+          "id": "kcXww",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Authors & Affiliations"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "tttYp",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "S. Nikolov1,∗, K. Ramakrishna2,3, A. Rohskopf1, M. Lokamani3, J. Tranchida4, J. Carpenter1, A. Cangi2,3, M.A. Wood1"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "kddBA",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "1 Sandia National Laboratories, USA"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "napFc",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "2,3 CASUS & HZDR, Germany"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "HwBTs",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "4 CEA, France"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ADBNQ",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "PACS & Metadata"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "KWweR",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "PACS numbers: 31.15.A-, 75.50.Ww, 75.30.Gw, 07.05.Tp"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            },
+            {
+              "id": "EfmJi",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "arXiv:2311.08737v1 [cond-mat.mtrl-sci]"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            },
+            {
+              "id": "xHdws",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Date: November 16, 2023"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "DXetH",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Core Research Focus"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "ayert",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Dynamic Compression of Iron"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "GMGGN",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "To Earth-core conditions (350 GPa, 6000 K)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "bNyYR",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Elastic properties (P-wave velocity, adiabatic bulk modulus)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "nmfSk",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Transport properties (electrical/thermal conductivity)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "rJhfi",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Geodynamo effect (magnetic field origin)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "XFhWa",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Methodological Innovation"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "GihrB",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Molecular-Spin Dynamics (MSD)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "KNpsM",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Explicit longitudinal spin fluctuations (LSF)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "dThwJ",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Coupled with time-dependent DFT (TDDFT) for transport properties"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "Namwz",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Fixed-Moment (FM) vs. LSF Simulations"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "xApMD",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "FM assumes constant magnetic moment (~2.2μB)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "MhWrD",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "LSF dynamically links magnetic moments to strain/phase changes"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "YQHmb",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Key Findings"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "DrHeY",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Phase Diagram Predictions"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "NfppH",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Metastable FCC phase near liquidus (~160 GPa)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "RQGyi",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "BCC-HCP transition at ~0.6 km/s piston speed (≈16 GPa)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "JHQyN",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Melting Point"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "imtGn",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "LSF: [239±14 GPa, 4182±123 K]"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "bcmnT",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Experimental validation: Ping et al. [250±30 GPa, 4950±1050 K], Nguyen et al. [226 GPa, 5000±500 K]"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "YPWFE",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Elastic Properties"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "aTBhC",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "P-wave velocities at 5882 K"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "QWace",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "LSF simulations vs. PREM data (±10% deviation)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "YXNTK",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Finite-size effects in small (16k) vs. large (2M) cells"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "rEdEw",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Adiabatic Bulk Modulus"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "fMzWP",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "LSF data aligns with Dorogokupets EOS model"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "kFRbM",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Hypothesized high-pressure BCC phase for seismic anisotropy"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "iMQiM",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Transport Properties"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "KBzmp",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Electrical Resistivity"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "yiJRm",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "LSF predicts 2000–4000 K trends at 140/212 GPa"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "NxZEb",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Matches Ohta et al. (226 Wm⁻¹K⁻¹) better than FM"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "mMRCh",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Controversy: Konôpková et al. (33 Wm⁻¹K⁻¹) via DAC experiments"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "ajJaj",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Thermal Conductivity"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "JdkDZ",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Phonon contributions: ≈5.65 W/mK (via Green-Kubo)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "cmQJp",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Electronic contributions dominate in liquid iron"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "jFwpA",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Methodology"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "wYGMR",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "MSD Framework"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "fsYem",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Hamiltonian:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "SaCRb",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Kinetic energy + SNAP interatomic potential + Exchange (Hex) + Landau expansion (HLandau)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "MKXHh",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Bethe-Slater Model:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "XTxmX",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Magnetic exchange functions J(r), K(r)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "ZhyHn",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Strain-dependent coefficients A, B, C"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "xSFEN",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Equations of Motion:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "JnYwN",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Microcanonical ensemble for shock simulations"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "kGWGe",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Langevin damping for preheating/static calculations"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "AJdFC",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Simulation Workflow"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "tptfA",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Shock Setup:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "Jrmyk",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Momentum-mirror piston (0.1–3.5 km/s)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "QWXfX",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "14.4 x 14.4 x 454.4 nm samples with 50–1000 K preheat"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "cfcrJ",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Phase Identification:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "iPNSs",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Modified polyhedral-template matching (PTM)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "GXezJ",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Liquid filter via quaternion orientation analysis (thresholds: BCC=0.01, HCP=0.2, FCC=0.11)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "KzApj",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Elastic/Transport Calculations"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "dYdjt",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Born Matrix Method:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "yGkCA",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Finite-temperature elastic constants (C11, C12, C44)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "YeAMA",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Green-Kubo Formalism:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "ySNFp",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Viscosity: Time integrals of shear stress autocorrelation"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "DTkrs",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Thermal conductivity: Atomic heat flux autocorrelation (≈0.06–0.08 ps decay)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "WMMrG",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Supplemental Insights"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "GtzYZ",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "LSF Implementation"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "dJEyC",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Magnetic Moment-Pressure Relationships"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "JWsFc",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Sigmoidal transitions for BCC-HCP/FCC thresholds"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "mmKPz",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Phase Stability Challenges"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "nTJPp",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Metastable BCC in 16k atom cells vs. rapid melting in 2M cells"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "btAcs",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Melting onset at up ≥ 2.8 km/s (Fig. S6)"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ZPzRK",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Computational Tools"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "MRPjM",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "LAMMPS SPIN Package:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "dGRsy",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "MSD simulations with spin precession"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "GbmnA",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "RT-TDDFT (Elk/Exciting codes):"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "HTZPF",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "All-electron conductivity calculations"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "FyARY",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Drude-fit DC conductivity extraction"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "YCZZX",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Validation Data"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "mfPNz",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Ab-Initio Training Set:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "BXEkb",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "BCC/FCC/HCP/Liquid phases from VASP DFT-MD"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "mxjbC",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Pressure-temperature grid: 100–300 GPa, 2000–6000 K"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "PtNxc",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Experimental Benchmarks:"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": [
+                    {
+                      "id": "hTxXm",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Hugoniot curves (Boehler [79], Kraus [8])"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    },
+                    {
+                      "id": "MPNnQ",
+                      "type": "mind_child",
+                      "data": {
+                        "topic": {
+                          "children": [
+                            {
+                              "text": "Pair correlation functions (Morard [70], Anzellini [24])"
+                            }
+                          ],
+                          "type": "paragraph"
+                        }
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Txfit",
+          "type": "mind_child",
+          "data": {
+            "topic": {
+              "children": [
+                {
+                  "text": "Conclusion & Implications"
+                }
+              ],
+              "type": "paragraph"
+            }
+          },
+          "children": [
+            {
+              "id": "yEKhw",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "LSF Significance"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "NmxMA",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Resolves magneto-elastic coupling in high-pressure iron"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "JAJBK",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Explains discrepancies in transport properties (FM vs. LSF)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "frDwR",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Future Directions"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "fHWds",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Incorporate light elements in MSD-TDDFT (C, Si, O)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "STRey",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Test FCC/BCC metastability with X-ray diagnostics"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "EMGYp",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Link to Earth’s magnetic field evolution models"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "SDPNb",
+              "type": "mind_child",
+              "data": {
+                "topic": {
+                  "children": [
+                    {
+                      "text": "Computational Advantages"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              },
+              "children": [
+                {
+                  "id": "eXcXM",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Orders of magnitude faster than DFT"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                },
+                {
+                  "id": "fPJcz",
+                  "type": "mind_child",
+                  "data": {
+                    "topic": {
+                      "children": [
+                        {
+                          "text": "Enables multiscale modeling (MSD → TDDFT → Geodynamo)"
+                        }
+                      ],
+                      "type": "paragraph"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "layout": "right",
+      "isRoot": true,
+      "points": [
+        [
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "operations": [
+    {
+      "type": "set_selection",
+      "properties": {
+        "anchor": [
+          61.5702612175312,
+          167.0337078450134
+        ],
+        "focus": [
+          61.5702612175312,
+          167.0337078450134
+        ]
+      },
+      "newProperties": null
+    }
+  ],
+  "viewport": {
+    "zoom": 0.8835422028276256,
+    "origination": [
+      -89.33753256334853,
+      -470.8605154787929
+    ]
+  },
+  "selection": null,
+  "theme": {
+    "themeColorMode": "default"
+  }
+}
