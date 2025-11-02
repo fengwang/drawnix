@@ -4,11 +4,10 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - 17183:80
+      - 17183:3000
     restart: unless-stopped
     volumes:
       - ./data/storage:/storage
     logging:
       options:
         max-size: 1g
-

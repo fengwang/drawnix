@@ -1,1 +1,294 @@
-/* Your styles goes here. */
+.app {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  height: 100vh;
+  background: #f5f7fb;
+  color: #111827;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+  background: linear-gradient(180deg, #0f172a 0%, #111c34 100%);
+  color: #f8fafc;
+}
+
+.sidebarHeader {
+  padding: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.brand {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin: 8px 0 0;
+  font-size: 0.86rem;
+  line-height: 1.4;
+  color: rgba(248, 250, 252, 0.72);
+}
+
+%button-base {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease, color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.primaryButton {
+  @extend %button-base;
+  width: 100%;
+  margin-top: 18px;
+  background: #2563eb;
+  color: #f8fafc;
+
+  &:hover {
+    background: #1d4ed8;
+  }
+}
+
+.fileList {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.emptyList {
+  text-align: center;
+  padding: 48px 24px;
+  color: rgba(248, 250, 252, 0.65);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.fileItem {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  padding: 18px 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  color: inherit;
+  cursor: pointer;
+  transition: background 0.2s ease;
+
+  &:hover {
+    background: rgba(37, 99, 235, 0.18);
+  }
+}
+
+.activeFile {
+  background: rgba(37, 99, 235, 0.28);
+}
+
+.fileName {
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.fileMeta {
+  margin-top: 6px;
+  display: flex;
+  gap: 12px;
+  font-size: 0.78rem;
+  color: rgba(248, 250, 252, 0.7);
+}
+
+.editor {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #f8fafc;
+}
+
+.toolbar {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 18px 28px;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+}
+
+.fileNameInput {
+  flex: 1;
+  font-size: 1rem;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  background: #f8fafc;
+  color: #0f172a;
+
+  &:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+  }
+}
+
+.toolbarActions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.secondaryButton {
+  @extend %button-base;
+  background: #ffffff;
+  border-color: #cbd5f5;
+  color: #1f2937;
+
+  &:hover {
+    border-color: #2563eb;
+    color: #1d4ed8;
+  }
+}
+
+.saveButton {
+  @extend %button-base;
+  background: #2563eb;
+  color: #f8fafc;
+  min-width: 96px;
+
+  &:hover {
+    background: #1d4ed8;
+  }
+
+  &:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+}
+
+.dangerButton {
+  @extend %button-base;
+  background: #fee2e2;
+  color: #b91c1c;
+
+  &:hover {
+    background: #fecaca;
+  }
+}
+
+.notice {
+  margin: 12px 28px 0;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 0.92rem;
+  border: 1px solid transparent;
+}
+
+.success {
+  background: #dcfce7;
+  border-color: #86efac;
+  color: #166534;
+}
+
+.error {
+  background: #fee2e2;
+  border-color: #fecaca;
+  color: #b91c1c;
+}
+
+.info {
+  background: #dbeafe;
+  border-color: #bfdbfe;
+  color: #1d4ed8;
+}
+
+.boardWrapper {
+  flex: 1;
+  position: relative;
+  background: #e2e8f0;
+}
+
+.boardDisabled {
+  pointer-events: none;
+  filter: grayscale(20%);
+  opacity: 0.75;
+}
+
+.boardWrapper :global(.drawnix) {
+  width: 100%;
+  height: 100%;
+}
+
+.loadingBackdrop {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.35);
+  color: #f8fafc;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.shareContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.shareHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.8) 100%);
+}
+
+.shareLabel {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(226, 232, 240, 0.72);
+}
+
+.shareTitle {
+  margin-top: 6px;
+  font-size: 1.4rem;
+  font-weight: 600;
+  word-break: break-word;
+}
+
+.shareBoard {
+  flex: 1;
+  position: relative;
+  background: #1e293b;
+}
+
+.shareBoard :global(.drawnix) {
+  width: 100%;
+  height: 100%;
+}
+
+.shareStatus {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 24px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background: rgba(15, 23, 42, 0.72);
+  color: #e2e8f0;
+  backdrop-filter: blur(4px);
+}

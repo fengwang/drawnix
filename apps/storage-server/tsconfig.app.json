@@ -1,0 +1,15 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../../dist/apps/storage-server",
+    "rootDir": "./src",
+    "module": "commonjs",
+    "target": "es2019",
+    "esModuleInterop": true,
+    "types": ["node"],
+    "resolveJsonModule": true,
+    "declaration": false
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["**/*.spec.ts"]
+}
