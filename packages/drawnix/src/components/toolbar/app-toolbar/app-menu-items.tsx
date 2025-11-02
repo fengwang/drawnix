@@ -149,7 +149,7 @@ export const Socials = () => {
   return (
     <MenuItemLink
       icon={GithubIcon}
-      href="https://github.com/plait-board/drawnix"
+      href="https://github.com/fengwang/drawnix"
       aria-label="GitHub"
     >
       GitHub

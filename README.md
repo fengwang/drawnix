@@ -4,11 +4,11 @@
 
 - 💯 Free and Open Source
 - ⚒️ Mind Maps and Flowcharts
+- 💾 Persistent storage backed by a shared `/storage` volume
 - 🖌 Freehand
 - 😀 Image Support
 - 🚀 Plugin-based Architecture - Extensible
 - 🖼️ 📃 Export to PNG, JPG, JSON(.drawnix)
-- 💾 Persistent storage backed by a shared `/storage` volume
 - 📁 Web UI to create, browse, edit, and share `.drawnix` files
 - ⚡ Edit Features: Undo, Redo, Copy, Paste, etc.
 - 🌌 Infinite Canvas: Zoom, Pan
