@@ -1,3 +1,11 @@
+## x.y.z (2025-11-02)
+
+### Features
+- Enables host storage
+- Enables external link
+- Exnalbe direct open markdown and mermaid files
+### by Feng
+
 ## 0.3.3 (2025-10-26)
 
 

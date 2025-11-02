@@ -2,62 +2,12 @@
 
 ## Features
 
-- 💯 Free and Open Source
-- ⚒️ Mind Maps and Flowcharts
-- 💾 Persistent storage backed by a shared `/storage` volume
-- 🖌 Freehand
-- 😀 Image Support
-- 🚀 Plugin-based Architecture - Extensible
-- 🖼️ 📃 Export to PNG, JPG, JSON(.drawnix)
-- 📁 Web UI to create, browse, edit, and share `.drawnix` files
-- ⚡ Edit Features: Undo, Redo, Copy, Paste, etc.
-- 🌌 Infinite Canvas: Zoom, Pan
-- 🎨 Theme Support
-- 📱 Mobile-friendly
-- 📈 Support mermaid syntax conversion to flowchart
-- ✨ Support markdown text conversion to mind map
-- 📄 Support opening Markdown (.md) and Mermaid (.mmd) files directly from `Menu → Open`
-
-
-## Repository Structure
-
-```
-drawnix/
-├── apps/
-│   ├── web                   # Drawnix Web UI
-│   │    └── index.html       # HTML
-│   └── storage-server        # HTTP API + static hosting bundle
-├── dist/                     # Build artifacts
-├── packages/
-│   └── drawnix/              # Whiteboard application core
-│   └── react-board/          # Whiteboard react view layer
-│   └── react-text/           # Text rendering module
-├── package.json
-├── Dockerfile
-├── docker-compose.yml
-├── ...
-└── README.md
-
-```
-
-
-## Development
-
-```
-npm install
-
-# terminal 1 – start the storage API (defaults to port 3000)
-npx ts-node --project apps/storage-server/tsconfig.app.json apps/storage-server/src/main.ts
-# or: npx nx serve storage-server
-
-# terminal 2 – run the Drawnix Web UI (Vite dev server on port 7200)
-npm run start
-```
-
-The Vite dev server proxies requests for `/api` and `/public` to
-`http://localhost:3000`. Set `DRAWNIX_API_PROXY` to override the proxy target
-during development, or export `VITE_API_BASE` when building/serving the client
-from a different origin.
+- Mind Maps and Flowcharts self-hosted
+- Persistent storage backed by a shared `/storage` volume
+- Web UI to create, browse, edit, and share `.drawnix` files
+- Edit Features: Undo, Redo, Copy, Paste, etc.
+- Support opening Markdown (.md) and Mermaid (.mmd) files directly from `Menu → Open`
+- Export to PNG, JPG, JSON(.drawnix)
 
 ## Docker Deployment
 Build the storage-enabled image:
@@ -87,6 +37,24 @@ Or spin it up with Docker Compose (uses the same volume mapping):
 docker-compose up -d
 ```
 
+## Screenshots
+
+### Create/Open/View a mindmap
+
+![](./misc/drawnix_1.png)
+
+### Render a mindmap in a shared link
+
+![](./misc/drawnix_2.png)
+
+
+## Project Background
+
+1. I want to host my mindmaps myself, but [drawnix](https://github.com/plait-board/drawnix) lacks storage function.
+2. I implemented the persistent storage backed by a shared `/storage` volume in the docker container.
+3. I do not care security as I only deploy in my home network.
+
+
 ## Storage API
 
 The container exposes a simple JSON API for managing `.drawnix` files in
@@ -111,4 +79,4 @@ sizes reasonable when uploading large boards.
 
 ## License
 
-MIT
+GPL
